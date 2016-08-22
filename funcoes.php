@@ -19,8 +19,4 @@ function cadastrarUsuario($dados) {
     echo $cadastrar;
 
     return inserir($cadastrar);
-
 }
-
-
-
