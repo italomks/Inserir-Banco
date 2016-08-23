@@ -32,3 +32,13 @@ function editarUsuario($dados) {
 
     return editar($editar);
 }
+
+function excluirUsuario($id) {
+    $excluir = "DELETE FROM curso_php_oop.usuarios WHERE id = $id";
+    return excluir($excluir);
+}
+
+function buscarDados(){
+    $sql = "SELECT * FROM curso_php_oop.usuarios";
+        return pesquisar($sql);
+}

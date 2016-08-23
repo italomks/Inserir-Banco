@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="146b3730-3cc2-4765-a69e-6ead472352da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cadastrar_usuario.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editar_usuario.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inserir.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/funcoes.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conecao.php" afterPath="$PROJECT_DIR$/conecao.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.php" afterPath="$PROJECT_DIR$/template.php" />
     </list>
     <ignored path="PDO_BANCO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,30 +26,6 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - curso_php_oop@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - curso_php_oop@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="usuarios" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -82,13 +55,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="deletar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deletar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#1;n#table#0;n#form#0;n#body#0;n#!!top" expanded="true" />
+                <marker date="1471978526544" expanded="true" signature="380:757" ph="..." />
+                <marker date="1471978526544" expanded="true" signature="934:978" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="396">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deletar_dados_pdo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deletar_dados_pdo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <marker date="1471974489782" expanded="true" signature="137:174" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -112,8 +112,8 @@
       <file leaf-file-name="conecao.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conecao.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -122,15 +122,17 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="630">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
-                <marker date="1471956928794" expanded="true" signature="173:439" ph="INSERT INTO usuarios... " />
-                <marker date="1471956928794" expanded="true" signature="173:452" ph="INSERT INTO usuarios... " />
-                <marker date="1471956928794" expanded="true" signature="549:828" ph="UPDATE curso... " />
-                <marker date="1471956928794" expanded="true" signature="549:852" ph="UPDATE curso... " />
-                <marker date="1471956928794" expanded="true" signature="549:866" ph="UPDATE curso... " />
-                <marker date="1471956928794" expanded="true" signature="549:896" ph="UPDATE curso... " />
+                <marker date="1471977778528" expanded="true" signature="173:439" ph="INSERT INTO usuarios... " />
+                <marker date="1471977778528" expanded="true" signature="173:452" ph="INSERT INTO usuarios... " />
+                <marker date="1471977778528" expanded="true" signature="549:828" ph="UPDATE curso... " />
+                <marker date="1471977778528" expanded="true" signature="549:852" ph="UPDATE curso... " />
+                <marker date="1471977778528" expanded="true" signature="549:866" ph="UPDATE curso... " />
+                <marker date="1471977778528" expanded="true" signature="549:896" ph="UPDATE curso... " />
+                <marker date="1471977778528" expanded="true" signature="948:994" ph="DELETE FROM " />
+                <marker date="1471977778528" expanded="true" signature="1069:1105" ph="SELECT * FRO... usuarios" />
               </folding>
             </state>
           </provider>
@@ -150,9 +152,11 @@
         <option value="$PROJECT_DIR$/inserir.php" />
         <option value="$PROJECT_DIR$/editar_usuario.php" />
         <option value="$PROJECT_DIR$/conecao.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/94bd2a73-3681-4573-a5cd-d6ee706b986f/console.sql" />
         <option value="$PROJECT_DIR$/template.php" />
+        <option value="$PROJECT_DIR$/deletar_dados_pdo.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/deletar.php" />
       </list>
     </option>
   </component>
@@ -167,7 +171,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1918" />
+    <option name="x" value="-4" />
+    <option name="width" value="1928" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -195,8 +200,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,7 +225,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../assistencia_tecnica-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -290,12 +295,14 @@
       <workItem from="1471863610597" duration="299000" />
       <workItem from="1471870105151" duration="3056000" />
       <workItem from="1471882480615" duration="3692000" />
-      <workItem from="1471950031166" duration="8340000" />
+      <workItem from="1471950031166" duration="8989000" />
+      <workItem from="1471970650220" duration="7548000" />
+      <workItem from="1471978704671" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19541000" />
+    <option name="totallyTimeSpent" value="27746000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,28 +314,48 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1918" height="1048" extended-state="5" />
+    <frame x="-4" y="0" width="1928" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10783262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.109391674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1475322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14674494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10832444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14674494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -346,22 +373,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/conecao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cadastrar_usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -390,12 +401,14 @@
         <state relative-caret-position="540">
           <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
-            <marker date="1471956928794" expanded="true" signature="173:439" ph="INSERT INTO usuarios... " />
-            <marker date="1471956928794" expanded="true" signature="173:452" ph="INSERT INTO usuarios... " />
-            <marker date="1471956928794" expanded="true" signature="549:828" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:852" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:866" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:896" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="173:439" ph="INSERT INTO usuarios... " />
+            <marker date="1471977778528" expanded="true" signature="173:452" ph="INSERT INTO usuarios... " />
+            <marker date="1471977778528" expanded="true" signature="549:828" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:852" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:866" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:896" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="948:994" ph="DELETE FROM " />
+            <marker date="1471977778528" expanded="true" signature="1069:1105" ph="SELECT * FRO... usuarios" />
           </folding>
         </state>
       </provider>
@@ -444,12 +457,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1471956928794" expanded="true" signature="173:439" ph="INSERT INTO usuarios... " />
-            <marker date="1471956928794" expanded="true" signature="173:452" ph="INSERT INTO usuarios... " />
-            <marker date="1471956928794" expanded="true" signature="549:828" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:852" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:866" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:896" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="173:439" ph="INSERT INTO usuarios... " />
+            <marker date="1471977778528" expanded="true" signature="173:452" ph="INSERT INTO usuarios... " />
+            <marker date="1471977778528" expanded="true" signature="549:828" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:852" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:866" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:896" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="948:994" ph="DELETE FROM " />
+            <marker date="1471977778528" expanded="true" signature="1069:1105" ph="SELECT * FRO... usuarios" />
           </folding>
         </state>
       </provider>
@@ -498,12 +513,14 @@
         <state relative-caret-position="396">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <marker date="1471956928794" expanded="true" signature="173:439" ph="INSERT INTO usuarios... " />
-            <marker date="1471956928794" expanded="true" signature="173:452" ph="INSERT INTO usuarios... " />
-            <marker date="1471956928794" expanded="true" signature="549:828" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:852" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:866" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:896" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="173:439" ph="INSERT INTO usuarios... " />
+            <marker date="1471977778528" expanded="true" signature="173:452" ph="INSERT INTO usuarios... " />
+            <marker date="1471977778528" expanded="true" signature="549:828" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:852" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:866" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:896" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="948:994" ph="DELETE FROM " />
+            <marker date="1471977778528" expanded="true" signature="1069:1105" ph="SELECT * FRO... usuarios" />
           </folding>
         </state>
       </provider>
@@ -539,12 +556,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1471956928794" expanded="true" signature="173:439" ph="INSERT INTO usuarios... " />
-            <marker date="1471956928794" expanded="true" signature="173:452" ph="INSERT INTO usuarios... " />
-            <marker date="1471956928794" expanded="true" signature="549:828" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:852" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:866" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:896" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="173:439" ph="INSERT INTO usuarios... " />
+            <marker date="1471977778528" expanded="true" signature="173:452" ph="INSERT INTO usuarios... " />
+            <marker date="1471977778528" expanded="true" signature="549:828" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:852" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:866" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:896" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="948:994" ph="DELETE FROM " />
+            <marker date="1471977778528" expanded="true" signature="1069:1105" ph="SELECT * FRO... usuarios" />
           </folding>
         </state>
       </provider>
@@ -710,13 +729,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template.php">
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cadastrar_usuario.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-          </folding>
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -730,33 +903,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cadastrar_usuario.php">
+    <entry file="file://$PROJECT_DIR$/deletar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="828">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#1;n#table#0;n#form#0;n#body#0;n#!!top" expanded="true" />
+            <marker date="1471978526544" expanded="true" signature="380:757" ph="..." />
+            <marker date="1471978526544" expanded="true" signature="934:978" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deletar_dados_pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1471974489782" expanded="true" signature="137:174" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9274132f/94bd2a73-3681-4573-a5cd-d6ee706b986f/curso_php_oop.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conecao.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="630">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
-            <marker date="1471956928794" expanded="true" signature="173:439" ph="INSERT INTO usuarios... " />
-            <marker date="1471956928794" expanded="true" signature="173:452" ph="INSERT INTO usuarios... " />
-            <marker date="1471956928794" expanded="true" signature="549:828" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:852" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:866" ph="UPDATE curso... " />
-            <marker date="1471956928794" expanded="true" signature="549:896" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="173:439" ph="INSERT INTO usuarios... " />
+            <marker date="1471977778528" expanded="true" signature="173:452" ph="INSERT INTO usuarios... " />
+            <marker date="1471977778528" expanded="true" signature="549:828" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:852" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:866" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="549:896" ph="UPDATE curso... " />
+            <marker date="1471977778528" expanded="true" signature="948:994" ph="DELETE FROM " />
+            <marker date="1471977778528" expanded="true" signature="1069:1105" ph="SELECT * FRO... usuarios" />
           </folding>
         </state>
       </provider>

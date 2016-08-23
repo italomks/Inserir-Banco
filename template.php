@@ -10,8 +10,8 @@ include 'index.php';
 
 
 ?>
-//MUDAR O FORM PRA EDITAR OU CADASTRAR
-<form action="editar_usuario.php" method="post">
+
+<form action="cadastrar_usuario.php" method="post">
     <input type="text" name="id" placeholder="ID"><br>
     <input type="text" name="nome" placeholder="Nome"><br>
     <input type="text" name="sobrenome" placeholder="Sobrenome"><br>
