@@ -20,3 +20,15 @@ function cadastrarUsuario($dados) {
 
     return inserir($cadastrar);
 }
+
+function editarUsuario($dados) {
+
+    $editar = "UPDATE curso_php_oop.usuarios SET 
+            nome = '" . addslashes($dados['nome']) . "',
+            sobrenome = '" . addslashes($dados['sobrenome']) . "',
+            email = '" . addslashes($dados['email']) . "',
+            senha= MD5('" . addslashes($dados['senha']) . "')
+            where id = {$dados['id']}";
+
+    return editar($editar);
+}

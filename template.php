@@ -2,21 +2,21 @@
 /**
  * Created by PhpStorm.
  * User: italo
- * Date: 18/08/16
- * Time: 15:39
+ * Date: 22/08/16
+ * Time: 13:44
  */
-include 'funcoes.php';
 
-if ($_POST) {
-    cadastrarUsuario($_POST);
-}
+include 'index.php';
+
 
 ?>
-
-<form action="inserir.php" method="post">
+//MUDAR O FORM PRA EDITAR OU CADASTRAR
+<form action="editar_usuario.php" method="post">
+    <input type="text" name="id" placeholder="ID"><br>
     <input type="text" name="nome" placeholder="Nome"><br>
     <input type="text" name="sobrenome" placeholder="Sobrenome"><br>
     <input type="email" name="email" placeholder="Email"><br>
     <input type="password" name="senha" placeholder="Senha"><br>
     <input type="submit" name="Cadastrar">
 </form>
+
